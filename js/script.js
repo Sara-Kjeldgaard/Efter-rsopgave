@@ -29,7 +29,7 @@ const weatherNames = {
 $(document).ready(function() {
     // We get the weather data
     fetch(
-        "http://api.openweathermap.org/data/2.5/weather?q=Aarhus,DK&lang=da&units=metric&appid=1450d6665d0d7ff0514b80256863ec6a"
+        "https://api.openweathermap.org/data/2.5/weather?q=Aarhus,DK&lang=da&units=metric&appid=1450d6665d0d7ff0514b80256863ec6a"
     )
         //Fetching the data takes time. We only want to run the following code after we have fetched it. (Called a promise)
         .then(response => {
