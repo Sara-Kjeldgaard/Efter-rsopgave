@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+p {
+    width: 50%;
+    text-align: center;
+}
+
+body {
+    background-image: url(/images/backgroundimg.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#map {
+    width: 500px;
+    height: 500px;
+    margin: 80px;
+}
+
+#weatherInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pictures img {
+    width: 20%;
+    margin: 30px;
+    
+}

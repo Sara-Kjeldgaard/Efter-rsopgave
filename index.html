@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8" />
+        <title>Efterår i Tivoli Friheden</title>
+        <meta name="author" content="Sara Skovbjerg Kjeldgaard" />
+        <meta
+            name="description"
+            content="Efterår, Tivoli Friheden, halloween, græskar, blade"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="icon" type="image/x-icon" href="" />
+
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+        <link
+            href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <header>
+            <h1>Hyggeligt Efterår I Dyrehaven</h1>
+        </header>
+        <main>
+            <p id="textPic">
+                Tag børnene med til hygge i dyrehaven! Kigger du ud på
+                efterårsvejret og tænker at vejret kun bliver mørkere samt at
+                kulden nærmer sig? Hvilke aktiviter kan vi egentlig lave med
+                vores børn og unge nu? JO! Kom og tag en tur i dyrehaven i århus
+                lige ved marselisborgskoven. Her kan du sammen med børnene fodre
+                en hjort og børnene kan lege i de store mængder af
+                nedfaldsblade. Der er mange gode madpakkesteder hvor man kan
+                side og nyde omgivelserne. Tjek lokationen og dagen vejr
+                herunder. Husk: Der findes ikke dårligt vejr kun dårlig
+                påklædning!
+            </p>
+
+            <div id="pictures">
+                <img
+                    src="images/b%C3%B8rnDyrehaven.jpg"
+                    alt="Børn dyrehaven efterår"
+                />
+
+                <img
+                    src="images/dyrehaven_aarhus.jpg"
+                    alt="Børn dyrehaven efterår"
+                />
+            </div>
+
+            <div id="map"></div>
+
+            <h2>Dagens vejr</h2>
+            <div id="result"></div>
+
+            <div id="weatherInfo">
+                <span id="weatherMain"></span>
+                <p>
+                    Temperaturen er:
+                    <span id="weatherTemp"></span>
+                    &#730;
+                </p>
+                <figure>
+                    <img id="weatherImg" />
+                </figure>
+            </div>
+        </main>
+        <footer></footer>
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
